@@ -1,0 +1,17 @@
+gitignore_content = """
+# Python
+__pycache__/
+*.py[cod]
+*.env
+*.venv/
+.env
+*.log
+
+# Streamlit cache
+.streamlit/
+
+
+# Ignore PDFs and user-uploaded files
+*.pdf
+
+"""

@@ -1,0 +1,35 @@
+# 📚 Interactive PDF Reader with LangChain & Streamlit
+
+This web application allows you to upload a PDF and ask it questions using a built-in AI assistant. It extracts relevant information from the document using advanced NLP techniques and displays both the chatbot's response and the original PDF content side by side for full context.
+
+---
+
+## 🚀 Features
+
+- Upload any PDF document
+- Ask natural language questions about the content
+- View referenced pages from the document next to the chatbot
+- Built with:
+  - [Streamlit](https://streamlit.io) for the frontend
+  - [LangChain](https://www.langchain.com/) for the RAG pipeline
+  - [OpenAI GPT-4o](https://platform.openai.com/) for language generation
+  - [Hugging Face](https://huggingface.co/sentence-transformers) for embeddings
+  - [PyMuPDF](https://pymupdf.readthedocs.io/) for page previews
+
+---
+
+## 🛠️ Setup Instructions
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/Sathvikaallenki/interactive-pdf-reader.git
+cd interactive-pdf-reader 
+
+2. **Install dependencies**
+pip install -r requirements.txt
+3. **Configure your environment variables Create a .env file in the root directory:** 
+
+OPENAI_API_KEY=your-openai-api-key 
+4. **Run the app** 
+
+    python -m streamlit run app.py
